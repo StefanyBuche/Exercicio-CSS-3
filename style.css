@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "android";
+  src: url("fontes/idroid.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(199, 218, 168, 0.873);
+}
+
+#cabecalho {
+  background-image: linear-gradient(1deg, rgba(0, 0, 0, 0.864), rgb(68, 151, 68));
+  text-align: center;
+  padding-top: 40px;
+  box-shadow: 1px 0px 7px 2px rgba(0, 0, 0, 0.56);
+}
+
+header > h1 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.57);
+}
+
+header > p {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2em;
+  max-width: 600px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: auto;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.57);
+}
+
+p {
+  margin-top: 1em;
+}
+
+nav {
+  text-align: left;
+  margin-top: 2.5em;
+}
+
+a.menu {
+  margin-right: 0.5em;
+  color: white;
+  text-decoration: none;
+  transition-duration: .3s; /*tempo de demora quando passa o mouse*/
+}
+
+a.menu:hover {
+  background-color: rgb(134, 174, 134);
+  border-radius: 2px;
+}
+
+main {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 50em;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+  border-bottom-left-radius: 5px; /*arredonda só a ponta esquerda de baixo*/
+  border-bottom-right-radius: 5px; /*arredonda só a ponda direita de baixo*/
+}
+
+#artigo {
+  color: rgb(19, 87, 19);
+  font: normal 2em "android";
+  margin: auto 0.5em;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.414);
+  padding-top: 1em;
+}
+
+.cont {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-indent: 30px;
+  margin: 2em 0.5em;
+  font-size: 1.5em;
+  line-height: 1.8em; /*altura de uma linha p/ outra*/
+}
+
+.secao {
+  background-image: linear-gradient(to right, rgb(126, 185, 126), white);
+  font: normal 1.5em "android";
+  text-indent: 0.5em;
+  color: rgb(4, 73, 4);
+}
+
+.link {
+  color: rgb(3, 89, 3);
+  text-decoration: none;
+  font: normal 900 1em "Cambria", Cochin, Georgia, Times, "Times New Roman",
+    serif;
+  background-color: rgba(0, 128, 0, 0.271);
+}
+
+.link:hover {
+  background-color: rgba(47, 148, 4, 0.738);
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  background-color: #83e1ad;
+  margin: 5%;
+  border-radius: 3%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+  padding: 2%;
+}
+
+h3 {
+  background-color: rgb(44, 101, 44);
+  color: white;
+  margin: -16px -16.7px 0px -16.6px; /*usei negativo para preencher meu bloco*/
+  padding: 10px;
+  font-size: 2em;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 1px 1px 5px rgb(44, 101, 44);
+}
+
+p.bloco {
+  font-size: 1.5em;
+  text-indent: 15px;
+}
+
+ol {
+  display: inline-block;
+  margin: 5% 5% 5% 0px;
+}
+
+li {
+  list-style: none;
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.614);
+}
+
+li:hover {
+  color: rgb(74, 177, 74);
+}
+
+footer {
+  background-color: rgb(44, 101, 44);
+  text-align: center;
+  color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+}
